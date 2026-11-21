@@ -1,0 +1,404 @@
+{
+  "title": "Cambio de placa madre de un Samsung Galaxy S10",
+  "source": "https://es.ifixit.com/Gu%C3%ADa/Cambio+de+placa+madre+de+un+Samsung+Galaxy+S10/121821",
+  "author": "Arthur Shi",
+  "steps": [
+    {
+      "number": 1,
+      "id": 234442,
+      "title": "Retirar la bandeja SIM",
+      "images": [
+        {
+          "file": "fotos-originales/paso-01-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/uXBajhS5AqWkI5MG.full",
+          "bytes": 515906
+        },
+        {
+          "file": "fotos-originales/paso-01-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/AvE4iUDFXTPrGyxU.full",
+          "bytes": 485956
+        },
+        {
+          "file": "fotos-originales/paso-01-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/5LJXYZ5lLDAcCNIg.full",
+          "bytes": 478792
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": 234446,
+      "title": "Calienta la tapa trasera",
+      "images": [
+        {
+          "file": "fotos-originales/paso-02-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/BOTuIKImcEsVyvLH.full",
+          "bytes": 1478629
+        },
+        {
+          "file": "fotos-originales/paso-02-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/eCjFXP1W4M6VxntQ.full",
+          "bytes": 1662351
+        },
+        {
+          "file": "fotos-originales/paso-02-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/SW2McIMxOQBXdudo.full",
+          "bytes": 1971077
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": 234448,
+      "title": "Crea un hueco de apertura",
+      "images": [
+        {
+          "file": "fotos-originales/paso-03-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/pvp5QqK6q2INIOSw.full",
+          "bytes": 626216
+        },
+        {
+          "file": "fotos-originales/paso-03-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/6RcP5dPE1OTYZMlw.full",
+          "bytes": 916657
+        },
+        {
+          "file": "fotos-originales/paso-03-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/cNWAYxvQ5QIc2MHu.full",
+          "bytes": 821313
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": 234447,
+      "title": "Inserta una púa de apertura",
+      "images": [
+        {
+          "file": "fotos-originales/paso-04-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/JdXMpUxPMBWOM6cS.full",
+          "bytes": 852493
+        },
+        {
+          "file": "fotos-originales/paso-04-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/w6i4NwEfSD1CCH4q.full",
+          "bytes": 891998
+        },
+        {
+          "file": "fotos-originales/paso-04-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/vVmiMOyKISOjvGUX.full",
+          "bytes": 1078677
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": 234449,
+      "title": "Corta el adhesivo",
+      "images": [
+        {
+          "file": "fotos-originales/paso-05-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/KrxueC2Y4SYsJnOw.full",
+          "bytes": 1285063
+        },
+        {
+          "file": "fotos-originales/paso-05-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/JplpUUV6xGskGeXn.full",
+          "bytes": 1305060
+        },
+        {
+          "file": "fotos-originales/paso-05-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/syWrI2LMh4WREk6B.full",
+          "bytes": 1255721
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": 234450,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-06-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/SPIusbpCMjutVaZe.full",
+          "bytes": 1119884
+        },
+        {
+          "file": "fotos-originales/paso-06-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/trPeWgTOtRvVq2gM.full",
+          "bytes": 799776
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": 234451,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-07-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/OS62cDANwiOD3dfZ.full",
+          "bytes": 1006100
+        },
+        {
+          "file": "fotos-originales/paso-07-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/AYMenH5IPmIDuFTx.full",
+          "bytes": 1277265
+        },
+        {
+          "file": "fotos-originales/paso-07-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/6U2yctlR6O4thvXb.full",
+          "bytes": 844618
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": 234452,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-08-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/RPxDgPhDg5pxaEsM.full",
+          "bytes": 957183
+        },
+        {
+          "file": "fotos-originales/paso-08-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/2lNBD2KT1FMIn6aL.full",
+          "bytes": 972626
+        },
+        {
+          "file": "fotos-originales/paso-08-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/ArfZMO3JvGPGDQxi.full",
+          "bytes": 1442576
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": 234456,
+      "title": "Remueve el marco medio",
+      "images": [
+        {
+          "file": "fotos-originales/paso-09-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/NBfOnOc5Ne3pSnVZ.full",
+          "bytes": 1016737
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": 234457,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-10-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/i1SvNwTTPtbjZFAt.full",
+          "bytes": 553151
+        },
+        {
+          "file": "fotos-originales/paso-10-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/6S1YuVbRp1BAxo2W.full",
+          "bytes": 546349
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": 234458,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-11-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/rqEg2ThYsWuRrF6t.full",
+          "bytes": 999291
+        },
+        {
+          "file": "fotos-originales/paso-11-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/b6jUyYpeZntHclyD.full",
+          "bytes": 1057364
+        },
+        {
+          "file": "fotos-originales/paso-11-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/TrZeM2AWaG3DnpUV.full",
+          "bytes": 1377564
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": 234459,
+      "title": "Desconecta la batería",
+      "images": [
+        {
+          "file": "fotos-originales/paso-12-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/2j6qHfuIlKbYTk14.full",
+          "bytes": 964341
+        },
+        {
+          "file": "fotos-originales/paso-12-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/4SMkg6BeITfAM4HT.full",
+          "bytes": 979288
+        },
+        {
+          "file": "fotos-originales/paso-12-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/ISPpTKGXZJTOYRFZ.full",
+          "bytes": 965622
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": 234464,
+      "title": "Remueve el altavoz",
+      "images": [
+        {
+          "file": "fotos-originales/paso-13-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/UNwmZNuKvbKGl5LV.full",
+          "bytes": 2529289
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": 234463,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-14-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/TOJZqGNWbCLgmLBR.full",
+          "bytes": 1507906
+        },
+        {
+          "file": "fotos-originales/paso-14-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/3LOhLehOyR1X1uZJ.full",
+          "bytes": 1568093
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": 234462,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-15-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/KJ2Z6POHxl45aDG3.full",
+          "bytes": 1089667
+        },
+        {
+          "file": "fotos-originales/paso-15-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/V1AT6ZfrPPyPJexR.full",
+          "bytes": 1096427
+        },
+        {
+          "file": "fotos-originales/paso-15-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/GPqannWDWKkkXRbU.full",
+          "bytes": 1258860
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": 234465,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-16-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/eIJfoavNfCeCDenF.full",
+          "bytes": 1297558
+        },
+        {
+          "file": "fotos-originales/paso-16-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/AqvxJBfktBniSwkl.full",
+          "bytes": 1301706
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": 234466,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-17-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/yHOxTSRxCbQ5gdOP.full",
+          "bytes": 607592
+        },
+        {
+          "file": "fotos-originales/paso-17-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/S25iNIHmVQWNT2CJ.full",
+          "bytes": 608527
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": 234467,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-18-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/ZDJTRbMBkT6sLNNG.full",
+          "bytes": 1739080
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": 234493,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-19-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/abxZM3U54TRdYRcq.full",
+          "bytes": 1216430
+        },
+        {
+          "file": "fotos-originales/paso-19-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/TH1vR5hgXsAgA2of.full",
+          "bytes": 1183200
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": 234468,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-20-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/IOLeF2YLcMYXYOVw.full",
+          "bytes": 1046059
+        },
+        {
+          "file": "fotos-originales/paso-20-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/ppOXhlVJ1aJYsZev.full",
+          "bytes": 1055535
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "id": 234481,
+      "title": "",
+      "images": [
+        {
+          "file": "fotos-originales/paso-21-foto-01.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/YPAWR1AMj1WsaTSL.full",
+          "bytes": 1258791
+        },
+        {
+          "file": "fotos-originales/paso-21-foto-02.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/ZNnRN6TONExGTnOj.full",
+          "bytes": 1234430
+        },
+        {
+          "file": "fotos-originales/paso-21-foto-03.jpg",
+          "source": "https://guide-images.cdn.ifixit.com/igi/piFjpcUJWIADR3Zo.full",
+          "bytes": 1209590
+        }
+      ]
+    }
+  ]
+}
