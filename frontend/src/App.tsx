@@ -1,55 +1,71 @@
-import { lazy, Suspense, useCallback, useState } from 'react'
-import HomePage from './features/public/home/HomePage'
+import { lazy, Suspense, useCallback, useEffect, useState } from 'react'
+import PaginaInicio from './features/public/inicio/PaginaInicio'
 import './styles/site.css'
 
-const AdminLogin = lazy(() => import('./features/admin/auth/AdminLogin'))
-const AdminWorkspace = lazy(() => import('./features/admin/AdminWorkspace'))
+const AccesoAdmin = lazy(() => import('./features/admin/acceso/AccesoAdmin'))
+const PanelAdmin = lazy(() => import('./features/admin/PanelAdmin'))
+const CatalogoCelulares = lazy(() => import('./features/public/celulares/CatalogoCelulares'))
 
-function clearHash(hash: string) {
-  if (window.location.hash === hash) {
+function limpiarRuta(ruta: string) {
+  if (window.location.hash === ruta) {
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
   }
 }
 
 function App() {
-  const [loginOpen, setLoginOpen] = useState(() => window.location.hash === '#administracion')
-  const [adminOpen, setAdminOpen] = useState(() => window.location.hash === '#inventario')
+  const [accesoAbierto, setAccesoAbierto] = useState(() => window.location.hash === '#administracion')
+  const [panelAbierto, setPanelAbierto] = useState(() => window.location.hash === '#inventario')
+  const [catalogoAbierto, setCatalogoAbierto] = useState(() => window.location.hash === '#celulares-disponibles')
 
-  const openLogin = useCallback(() => {
-    setLoginOpen(true)
+  useEffect(() => {
+    const actualizarVistaPublica = () => setCatalogoAbierto(window.location.hash === '#celulares-disponibles')
+    window.addEventListener('hashchange', actualizarVistaPublica)
+    return () => window.removeEventListener('hashchange', actualizarVistaPublica)
+  }, [])
+
+  const abrirAcceso = useCallback(() => {
+    setAccesoAbierto(true)
     window.history.replaceState(null, '', '#administracion')
   }, [])
 
-  const closeLogin = useCallback(() => {
-    setLoginOpen(false)
-    clearHash('#administracion')
+  const cerrarAcceso = useCallback(() => {
+    setAccesoAbierto(false)
+    limpiarRuta('#administracion')
   }, [])
 
-  const openAdmin = useCallback(() => {
-    setLoginOpen(false)
-    setAdminOpen(true)
+  const abrirPanel = useCallback(() => {
+    setAccesoAbierto(false)
+    setPanelAbierto(true)
     window.history.replaceState(null, '', '#inventario')
   }, [])
 
-  const closeAdmin = useCallback(() => {
-    setAdminOpen(false)
-    clearHash('#inventario')
+  const cerrarPanel = useCallback(() => {
+    setPanelAbierto(false)
+    limpiarRuta('#inventario')
   }, [])
 
-  if (adminOpen) {
+  if (panelAbierto) {
     return (
       <Suspense fallback={<div className="admin-loading" role="status">Cargando panel administrativo…</div>}>
-        <AdminWorkspace onExit={closeAdmin} />
+        <PanelAdmin alSalir={cerrarPanel} />
+      </Suspense>
+    )
+  }
+
+  if (catalogoAbierto) {
+    return (
+      <Suspense fallback={<div className="admin-loading" role="status">Cargando celulares disponibles…</div>}>
+        <CatalogoCelulares />
       </Suspense>
     )
   }
 
   return (
     <>
-      <HomePage onOpenAdmin={openLogin} />
-      {loginOpen && (
+      <PaginaInicio alAbrirAdmin={abrirAcceso} />
+      {accesoAbierto && (
         <Suspense fallback={<div className="admin-loading" role="status">Preparando acceso administrativo…</div>}>
-          <AdminLogin open onClose={closeLogin} onEnter={openAdmin} />
+          <AccesoAdmin abierto alCerrar={cerrarAcceso} alIngresar={abrirPanel} />
         </Suspense>
       )}
     </>

@@ -11,7 +11,8 @@ El objeto explicativo es una estación de diagnóstico fotográfica. El usuario 
 - Cuatro controles físicos de etapa con índice y etiqueta.
 - Hero con identificación, título, explicación, acciones y tres datos operativos.
 - Franja de compromisos, proceso en tres fases y servicios visuales.
-- Tarjeta de orden con cabecera, dispositivo, falla, cuatro hitos y ubicación.
+- Tarjeta de seguimiento con equipo, diagnóstico, precio enviado, aprobación pendiente, siguiente paso y tiempo estimado.
+- Sección de servicios con acceso directo al catálogo público de celulares de medio uso.
 - Sección de contacto y pie de página.
 
 ## Movimiento

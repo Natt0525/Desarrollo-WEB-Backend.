@@ -1,0 +1,18 @@
+.workshop-modal { position: fixed; inset: 0; z-index: 300; display: flex; justify-content: flex-end; color: #192230; font-family: var(--display); }
+.workshop-backdrop { position: absolute; inset: 0; border: 0; background: #10192988; cursor: pointer; }
+.workshop-dialog { position: relative; width: min(560px, 100%); height: 100%; overflow-y: auto; box-sizing: border-box; background: #f8f9fb; box-shadow: -12px 0 60px #0002; }
+.workshop-dialog > header { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 25px; background: #f8f9fb; border-bottom: 1px solid #d5dce6; }
+.workshop-dialog > header h2 { margin: 0; font: 700 25px/1.2 var(--display); letter-spacing: -.03em; }
+.workshop-dialog > header button { width: 44px; height: 44px; flex-shrink: 0; border: 1px solid #bcc6d4; background: none; font-size: 24px; cursor: pointer; }
+.workshop-form { display: grid; gap: 20px; padding: 26px; }
+.workshop-form label { display: grid; gap: 8px; font: 550 14px/1.5 var(--display); }
+.workshop-form input, .workshop-form select, .workshop-form textarea { box-sizing: border-box; width: 100%; min-width: 0; min-height: 46px; padding: 12px; border: 1px solid #bec9d9; color: #192230; background: white; font: 400 16px/1.4 var(--display); }
+.workshop-form textarea { min-height: 100px; resize: vertical; }
+.workshop-form input:focus, .workshop-form textarea:focus, .workshop-form select:focus { outline: 2px solid #174dff; outline-offset: 2px; }
+.form-error { padding: 12px; color: #a52b25; background: #ffebe8; font-size: 14px; }
+.workshop-form .op-primary { min-height: 46px; border: 0; color: white; background: #174dff; font: 700 14px/1 var(--display); cursor: pointer; }
+
+@media (max-width: 620px) {
+  .workshop-dialog > header,
+  .workshop-form { padding: 18px; }
+}

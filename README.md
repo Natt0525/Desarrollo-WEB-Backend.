@@ -23,16 +23,15 @@ El código de `frontend/src/features/` se organiza por área funcional:
 
 ```text
 features/
-├── public/home/             Portada, contenido y anatomía fotográfica
-├── shared/phone-explorer/   Modelo 3D reutilizable
+├── public/inicio/           Portada, contenido y anatomía fotográfica
+├── shared/phone-explorer/   Motor visual 3D aislado
 └── admin/
-    ├── AdminWorkspace.tsx   Entrada y navegación del panel
-    ├── auth/                Acceso administrativo
-    ├── screens/             Inventario y venta de pantallas
-    ├── clients/             Gestión de clientes
-    ├── technicians/         Gestión de técnicos
-    ├── operations/          Órdenes, trabajos y libro de ventas
-    └── shared/              Formularios, datos demo y estilos compartidos
+    ├── PanelAdmin.tsx       Entrada y selección del módulo activo
+    ├── acceso/              Acceso administrativo
+    ├── celulares/           Modelo, datos, formulario e interfaz de celulares
+    ├── pantallas/           Modelo, datos, formulario e interfaz de pantallas
+    ├── compartido/          Navegación, utilidades y estado temporal
+    └── estilos/             Estilos del panel y sus formularios
 ```
 
 `frontend/src/App.tsx` coordina la portada, el login y el panel privado. Los estilos generales están en `frontend/src/styles/`. Los recursos visuales consumidos por la aplicación permanecen en `frontend/src/assets/`. Las capturas de validación están en `frontend/design-previews/` y las utilidades de revisión en `frontend/scripts/`.

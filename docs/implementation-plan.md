@@ -4,11 +4,13 @@
 
 Estado: completada.
 
-- Portada pública y experiencia visual de ZION TECH.
+- Portada pública adaptable y experiencia visual de ZION TECH basada en un flujo real de diagnóstico y reparación.
+- Estación fotográfica de cuatro etapas con controles accesibles, recorrido automático y soporte para movimiento reducido.
+- Catálogo público de celulares de medio uso con equipos disponibles y reservados, orden por disponibilidad y consulta por WhatsApp.
 - Acceso visible al área administrativa y pantalla de login demostrativa.
-- Panel adaptable con resumen, celulares, pantallas, técnicos, ventas, órdenes y clientes.
-- Formularios, validaciones, relaciones entre módulos, archivo lógico y reporte imprimible.
-- Pruebas automatizadas del recorrido principal y de tamaños de pantalla.
+- Panel privado enfocado actualmente en los módulos de celulares y pantallas.
+- Formularios, búsqueda, filtros, validaciones y venta temporal durante la sesión.
+- Revisión visual en distintos tamaños de pantalla, análisis estático y compilación de producción.
 
 ## Etapa 2: backend y persistencia
 
